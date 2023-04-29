@@ -131,7 +131,7 @@ agent.getPolicy()
 print("For max reward the agent should follow the policy : ", agent.actionArray)
 print("========================================================================================")
 agent1.run()
-print("For max reward the agent should quit at " +
+print("For max reward the agent should after " +
       str(np.argmax(agent1.values) + 1) + " state.")
 print("========================================================================================")
 agent2.run()
